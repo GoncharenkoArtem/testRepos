@@ -19,17 +19,17 @@ namespace project_1
 
         {
 
-            string result = "";
+            string result1 = "";
 
             for (int i = 0; i < repeat; i++)
 
             {
-                result += "Hello, pidr!\n";
-                Console.WriteLine(result);
+                result1 += "Hello, pidr!\n";
+                Console.WriteLine(result1);
 
             }
 
-            return result;
+            return result1;
 
         }
     }
