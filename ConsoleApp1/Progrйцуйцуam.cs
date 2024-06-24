@@ -8,10 +8,9 @@ static int Sum(int t, int v)
 }
 
 
-static int Sum(int t)
+static int Sum1(int t)
 {
     return t;
 }
 
 
-int b = Sum(1);

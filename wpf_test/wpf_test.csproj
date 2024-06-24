@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\delete.png" />
+    <None Remove="images\down.png" />
+    <None Remove="images\edit.png" />
+    <None Remove="images\new person.png" />
+    <None Remove="images\pdf.png" />
+    <None Remove="images\plus.png" />
+    <None Remove="images\up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2849.39" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="27.1.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\project_1\project_1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\delete.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\down.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\edit.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\new person.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pdf.png" />
+    <Resource Include="images\plus.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+	<Resource Include="images\up.png">
+	  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	</Resource>
+  </ItemGroup>
+
+</Project>
