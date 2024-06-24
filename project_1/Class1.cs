@@ -25,6 +25,7 @@ namespace project_1
 
             {
                 result += "Hello, pidr!\n";
+                Console.WriteLine(result);
 
             }
 
